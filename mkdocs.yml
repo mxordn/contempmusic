@@ -1,0 +1,36 @@
+site_name: ContempMusic
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+extra:
+  search:
+    tokenizer: '[\s\-\.]+'
+    
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.details
+  - admonition
+
+theme:
+  name: material
+  palette:
+    primary: 'Teal' #rgb(31, 116, 189)
+    accent: 'Deep Orange'
+  language: de
+  feature:
+    tabs: true
+  favicon: 'assets/images/favicon.png'
+  contact: 'moritz.heffter@fhnw.ch'
+  logo: 'assets/images/logo.png'
+
+nav:
+  - Einleitung:
+    - Start: index.md
+  - Portaits:
+    - King of Denmark: kingofdenmark.md
