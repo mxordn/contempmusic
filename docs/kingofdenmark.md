@@ -7,7 +7,7 @@ Das Werk entstand 1964. Der Titel *King of Denmark* ist ein politisches Statemen
 
 ## Besonderheiten, Merkmale und Hintergründe
 ### Besetzung
-
+Schlagzeug
 
 ### Notation
 Feldman notiert in seiner für die 1950er Jahre typischen graphischen Notation.
